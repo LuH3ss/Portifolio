@@ -8,6 +8,7 @@ import BEj from '../../img/boy.png'
 import Thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import GalassesEmoji from '../../img/glassesimoji.png'
+import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
 export default function Intro() {
   return (
@@ -28,7 +29,29 @@ export default function Intro() {
             </a>
         </div>
         </div>
-        <div className='intro-right'></div>
+        <div className='intro-right'>
+          <img src={Vector1} alt="" />
+          <img src={Vector2} alt="" />
+          <img src={BEj} alt="" />
+          <img src={GalassesEmoji} alt="" />
+          <div style={{bottom: '0.2%', left: '1%'}}>
+            <FloatingDiv 
+            image={Crown} 
+            txt1='web'
+            txt2='Developer'
+            />
+          </div>
+          <div className="blur"
+          style={{
+            background: '#C1F5FF',
+            top: '17rem',
+            width:'21rem',
+            height: '11rem',
+            left:'-9rem'
+
+          }}></div>
+
+        </div>
     </div>
   )
 }
