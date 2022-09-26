@@ -1,4 +1,5 @@
 import React from 'react'
+import Toogle from '../Toogle/Toogle'
 import './Navbar.css'
 
 export default function Navbar() {
@@ -6,7 +7,7 @@ export default function Navbar() {
     <div className='navbar-wrapper'>
         <div className='navbar-wrapper--left'>
           <div className='navbar-wrapper--left-name'>Lucas</div>
-          <span>toogle</span>
+          <Toogle />
         </div>
         <div className='navbar-wrapper--right'>
           <div className='navbar-wrapper--right-list'>
