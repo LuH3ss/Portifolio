@@ -38,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/LuH3ss/Portifolio.git",
+  "author": "Lucas Axel Hess <lucashess98@gmail.com>",
+  "license": "MIT"
 }

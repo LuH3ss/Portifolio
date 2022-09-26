@@ -5,11 +5,20 @@ import Glasses from '../../img/glasses.png'
 import Humble from'../../img/humble.png'
 import Card from '../Card/Card'
 import Resume from './CV -Lucas Hess_DEV (1).pdf'
+import { useContext } from 'react'
+import {themeContext} from '../../Context.js'
 export default function Services() {
+  const theme = useContext(themeContext)
+  const darkMode = theme.state.darkMode
   return (
     <div className="services">
         <div className="serv-left">
-            <span>Mis</span>
+            <span style={
+                  darkMode
+                  ? {color: 'white'}
+                  : {color: ''}
+                }
+            >Mis</span>
             <span>Servicios</span>
             <span>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sit voluptatem deleniti doloribus vitae distinctio pariatur nam repellendus consequuntur dolor.
