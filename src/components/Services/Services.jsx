@@ -11,7 +11,7 @@ export default function Services() {
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
   return (
-    <div className="services">
+    <div className="services" id='Servicios'>
         <div className="serv-left">
             <span style={
                   darkMode
@@ -55,7 +55,7 @@ export default function Services() {
             heading = {'Responsivo'}
             detail = {'Tu página será responsiva y se podra visualizar desde varios dispositivos'}
             />
-            </div>
+          </div>
             <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
         </div>
     </div>

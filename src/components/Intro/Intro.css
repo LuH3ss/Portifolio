@@ -11,6 +11,8 @@
         flex:1 ;
         flex-direction: column;
         gap: 2rem;
+        text-align: center;
+        align-items: center;
     }
 
     .intro-name {
@@ -108,3 +110,12 @@
         top: -18%;
         left: 56%;
     }
+
+    @media screen and (max-width: 480px) {
+        .navbar-wrapper--right-list {
+            display: none;
+        }
+        .n-button {
+            display: none;
+        }
+       } 

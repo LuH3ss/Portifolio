@@ -23,7 +23,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id='Contacto'>
         <div className="intro-left">
             <div className="intro-name">
                 <span style={

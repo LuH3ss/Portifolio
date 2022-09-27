@@ -2,21 +2,22 @@ import React from 'react'
 import './Intro.css'
 import Github from '../../img/github.png'
 import Linkedin from '../../img/linkedin.png'
-import Vector1 from '../../img/Vector1.png'
-import Vector2 from '../../img/Vector2.png'
-import BEj from '../../img/boy.png'
+// import Vector1 from '../../img/Vector1.png'
+// import Vector2 from '../../img/Vector2.png'
+// import BEj from '../../img/boy.png'
 
-import Crown from '../../img/crown.png'
-import GalassesEmoji from '../../img/glassesimoji.png'
-import FloatingDiv from '../FloatingDiv/FloatingDiv'
+// import Crown from '../../img/crown.png'
+// import GalassesEmoji from '../../img/glassesimoji.png'
+// import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import { useContext } from 'react'
 import {themeContext} from '../../Context.js'
+import { Link } from 'react-scroll'
 
 export default function Intro() {
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
   return (
-    <div className='intro'>
+    <div className='intro' id='Intro'>
         <div className='intro-left'>
             <div className='intro-name'>
                 <span
@@ -34,7 +35,11 @@ export default function Intro() {
                 }
                 >Desarrollador Web FullStack JR</span>
             </div>
-        <button className="button intro-btn">Contratame</button>
+        <button className="button intro-btn">
+        <Link spy={true}  smooth={true} to='Contacto'>
+            Contactame
+            </Link>
+          </button>
         <div className="intro-icons">
             <a href="https://www.linkedin.com/in/lucas-axel-hess/">
             <img src={Linkedin} alt="" />
@@ -44,7 +49,7 @@ export default function Intro() {
             </a>
         </div>
         </div>
-        <div className='intro-right'>
+        {/* <div className='intro-right'>
           <img src={Vector1} alt="" />
           <img src={Vector2} alt="" />
           <img src={BEj} alt="" />
@@ -66,7 +71,9 @@ export default function Intro() {
 
           }}></div>
 
-        </div>
+        </div> */}
     </div>
   )
 }
+
+

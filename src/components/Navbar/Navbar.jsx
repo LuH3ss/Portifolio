@@ -1,7 +1,7 @@
 import React from 'react'
 import Toogle from '../Toogle/Toogle'
 import './Navbar.css'
-
+import {Link} from 'react-scroll'
 export default function Navbar() {
   return (
     <div className='navbar-wrapper'>
@@ -12,14 +12,21 @@ export default function Navbar() {
         <div className='navbar-wrapper--right'>
           <div className='navbar-wrapper--right-list'>
             <ul>
+              <Link spy={true} activeClass="activeClass" smooth={true} to="Intro">
               <li>Home</li>
-              <li>Services</li>
-              <li>Expiereence</li>
+              </Link>
+              <Link spy={true}  smooth={true} to='Servicios'>
+              <li>Servicios</li>
+              </Link>
+              <Link spy={true}  smooth={true} to='Proyectos'>
               <li>Portfolio</li>
+              </Link>
             </ul>
           </div>
-          <button className='button'>
+          <button className='button n-button'>
+            <Link spy={true}  smooth={true} to='Contacto'>
             Contactame
+            </Link>
           </button>
         </div>
 

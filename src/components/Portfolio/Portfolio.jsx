@@ -12,7 +12,7 @@ import'swiper/css'
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id='Proyectos'>
 
      <span>Proyectos Recientes</span>
      <span>Portfolio</span>
