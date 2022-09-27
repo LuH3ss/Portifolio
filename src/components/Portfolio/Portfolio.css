@@ -38,3 +38,7 @@
     border-radius: 19px;
     height: inherit;
 }
+
+.portfolio a {
+    height: inherit;
+}
