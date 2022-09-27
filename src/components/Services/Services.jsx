@@ -21,9 +21,9 @@ export default function Services() {
             >Mis</span>
             <span>Servicios</span>
             <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sit voluptatem deleniti doloribus vitae distinctio pariatur nam repellendus consequuntur dolor.
+                Cuento con formación y experiencia en tecnologías que se usan hoy en día en la mayorias de los sitiow web. Algunas son:
                 <br />
-                Lorem ipsum dolor, sit amet consectetur adipisicing.
+                ReactJs, Angular, Typescript, Javascript, Express, NodeJs, MUI, etc. Más info en mi CV. 
             </span>
             <a href={Resume} download>
             <button className="button s-button">Descargar CV</button>
