@@ -53,7 +53,7 @@ export default function Contact() {
                 className='user'
                 placeholder='Mensaje'    
                     />
-                <input type="submit" value="Send" className="button" />    
+                <input type="submit" value="Enviar" className="button" />    
                 <span>{sent && 'Mensaje enviado! Te responderé pronto'}</span>
                 <div className="blur c-blur1"
                 style={{background:'var(--purple)'}}></div>

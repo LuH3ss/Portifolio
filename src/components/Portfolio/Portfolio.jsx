@@ -24,10 +24,8 @@ export default function Portfolio() {
      className='portfolio-slider'
      >
         <SwiperSlide>
+            
             <img src={batatabit} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={maqueta} alt="" />
         </SwiperSlide>
     
         <SwiperSlide>
@@ -35,6 +33,9 @@ export default function Portfolio() {
         </SwiperSlide>    
         <SwiperSlide>
             <img src={exPortfolio} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={maqueta} alt="" />
         </SwiperSlide>
      </Swiper>
     </div>

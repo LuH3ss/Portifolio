@@ -45,7 +45,7 @@ export default function Services() {
             <Card
             emoji = {Glasses}
             heading = {'Desarrollo'}
-            detail = {'Me ocupo de que tu pagina funcione segun tus necesidades'}
+            detail = {'Me ocupo de que tu página funcione segun tus necesidades'}
             />
             </div>
             <div style={{top: '19rem', left: '12rem'}}>
@@ -53,7 +53,7 @@ export default function Services() {
             <Card
             emoji = {Humble}
             heading = {'Responsivo'}
-            detail = {'Tu página será responsiva y se podra visualizar desde varios dispositivos'}
+            detail = {'Tu página será responsiva y se podrá visualizar desde varios dispositivos'}
             />
           </div>
             <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
