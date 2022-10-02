@@ -8,7 +8,7 @@ import countries from '../../img/countries.png'
 import exPortfolio from '../../img/ex-portfolio.png'
 import maqueta from '../../img/maqueta.png'
 import'swiper/css'
-import { Link } from 'react-scroll'
+
 
 
 

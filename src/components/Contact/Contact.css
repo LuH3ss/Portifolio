@@ -47,9 +47,15 @@ textarea {
         flex-direction: column;
         gap: 5rem;
         height: 100%;
+        
     }
     .c-right .user{
         width: 13rem;
+        
+    }
+
+    .c-right>form {
+        width: 100%;
     }
 
    } 

@@ -66,16 +66,14 @@
       margin-bottom: -15rem;
 }
 .serv-right  {
-    
     display: flex;
- 
-    
     flex-direction: column  ;
-        padding: 3rem 0;
+    padding: 3rem 0;
     gap: 17rem;
 }
 .serv-right>* {
   position: static;
+  
 }
 
 

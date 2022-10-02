@@ -37,7 +37,7 @@ export default function Services() {
             <Card
             emoji = {HeartEmoji}
             heading = {'Diseño'}
-            detail = {'Diseño hecho a tu medida y a tu gusto'}
+            detail = {'Diseño hecho a tu medida y a tu gusto. Cómo es tu marca?'}
             />
             </div>
             <div style={{top: '12rem', left: '-4rem'}}>
