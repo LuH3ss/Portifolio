@@ -59,3 +59,14 @@ textarea {
     }
 
    } 
+
+@media screen and (max-width: 770px) {
+    .contact-form{
+       padding: 0;
+       flex-direction: column;
+    }
+
+    .c-right>form {
+        margin: auto;
+    }
+}
